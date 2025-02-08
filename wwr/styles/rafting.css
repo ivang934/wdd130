@@ -62,3 +62,64 @@ article p {
     margin: 0;
 }
   
+
+header {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: var(--primary-color); 
+}
+
+header img {
+    max-height: 60px; 
+}
+
+nav {
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+nav a {
+    margin-left: 20px; 
+    color: white; 
+    font-weight: bold; 
+}
+
+
+section {
+    margin: 20px; 
+}
+
+h2 {
+    font-family: var(--font-heading); 
+}
+
+
+.adventures {
+    display: flex; 
+    justify-content: space-between; 
+    flex-wrap: wrap; 
+}
+
+.adventures figure {
+    margin: 10px; 
+    text-align: center; 
+}
+
+
+footer {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: var(--primary-color); 
+}
+
+.sociallinks {
+    display: flex; 
+}
+
+.sociallinks a {
+    margin-left: 10px; 
+}
